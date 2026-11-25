@@ -46,7 +46,7 @@ export default function SiteChrome({ children }: { children: React.ReactNode }) 
               <span className="m2-loader-orbit" />
               <img src="/images/m2-logo-dark.png" alt="M Square Interiors" />
             </div>
-            <p className="m2-loader-caption">M Square INTERIORS</p>
+            <p className="m2-loader-caption">M SQUARE INTERIORS</p>
             <div className="m2-loader-track"><span /></div>
             <span className="m2-loader-subtitle">CRAFTING YOUR EXPERIENCE</span>
           </div>
