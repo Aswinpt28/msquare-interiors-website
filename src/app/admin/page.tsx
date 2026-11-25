@@ -276,7 +276,7 @@ export default function AdminPage() {
     return (
       <main className="admin-shell admin-login">
         <form className="admin-login-card" onSubmit={login}>
-          <p className="admin-eyebrow">M Square INTERIORS / PRIVATE ACCESS</p>
+          <p className="admin-eyebrow">M SQUARE INTERIORS / PRIVATE ACCESS</p>
           <LockKeyhole size={30} />
           <h1>
             Studio
@@ -375,7 +375,7 @@ export default function AdminPage() {
             <Menu />
           </button>
           <div>
-            <p>M Square INTERIORS / MANAGEMENT</p>
+            <p>M SQUARE INTERIORS / MANAGEMENT</p>
             <h1>{titleText}</h1>
           </div>
           <div className="admin-top-actions">
@@ -625,7 +625,7 @@ export default function AdminPage() {
           <>
             <div className="admin-section-intro">
               <div>
-                <p className="admin-eyebrow">M Square OBJECTS</p>
+                <p className="admin-eyebrow">M SQUARE OBJECTS</p>
                 <h2>
                   Furniture <em>catalogue.</em>
                 </h2>
@@ -865,7 +865,7 @@ export default function AdminPage() {
           </>
         )}
         <footer className="admin-footer">
-          M Square INTERIORS <span>PRIVATE MANAGEMENT AREA</span>
+          M SQUARE INTERIORS <span>PRIVATE MANAGEMENT AREA</span>
           <span>SECURE STUDIO SESSION</span>
         </footer>
       </section>
