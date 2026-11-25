@@ -11,12 +11,12 @@ const services = [
 export default function Home() {
   return <>
     <section className="world-hero">
-      <video className="world-hero-video" autoPlay muted loop playsInline preload="auto" poster="/images/hero-film-poster.jpg" aria-label="M² Interiors residential design film">
+      <video className="world-hero-video" autoPlay muted loop playsInline preload="auto" poster="/images/hero-film-poster.jpg" aria-label="M Square Interiors residential design film">
         <source src="/videos/project-film-2.mp4" type="video/mp4" />
       </video>
       <div className="world-hero-overlay" />
       <div className="world-hero-content">
-        <p className="world-eyebrow">M² INTERIORS&nbsp;&nbsp; / &nbsp;&nbsp; SPACES THAT INSPIRE</p>
+        <p className="world-eyebrow">M SQUARE INTERIORS&nbsp;&nbsp; / &nbsp;&nbsp; SPACES THAT INSPIRE</p>
         <h1>Interiors<br/>with <em>intention.</em></h1>
         {/* <div className="world-hero-bottom"><p>We shape considered spaces<br/>for the way you live.</p><Link href="#services" className="world-round-link">EXPLORE<br/>OUR WORK <span>↗</span></Link></div> */}
       </div>
@@ -28,8 +28,8 @@ export default function Home() {
 
     <section className="world-studio">
       <div className="world-studio-label"><span>01</span><i/> THE STUDIO</div>
-      <div className="world-studio-copy"><p className="world-kicker">A DIFFERENT WAY TO THINK ABOUT HOME</p><h2>Good design is<br/>felt, <em>not just seen.</em></h2><p className="world-body">At M² Interiors, we bring together thoughtful planning, expressive materials and finely resolved details to create spaces that feel personal. From the first idea to the final finish, every decision has a purpose — and every room has a point of view.</p><Link href="/services" className="world-text-link">DISCOVER THE STUDIO <span>↗</span></Link></div>
-      <div className="world-studio-photo"><Image src="/images/project-12.jpg" alt="Timber partition framing a contemporary living room" fill sizes="(max-width: 760px) 100vw, 42vw"/><span>THE ART OF EVERYDAY LIVING / M²</span></div>
+      <div className="world-studio-copy"><p className="world-kicker">A DIFFERENT WAY TO THINK ABOUT HOME</p><h2>Good design is<br/>felt, <em>not just seen.</em></h2><p className="world-body">At M Square Interiors, we bring together thoughtful planning, expressive materials and finely resolved details to create spaces that feel personal. From the first idea to the final finish, every decision has a purpose — and every room has a point of view.</p><Link href="/services" className="world-text-link">DISCOVER THE STUDIO <span>↗</span></Link></div>
+      <div className="world-studio-photo"><Image src="/images/project-12.jpg" alt="Timber partition framing a contemporary living room" fill sizes="(max-width: 760px) 100vw, 42vw"/><span>THE ART OF EVERYDAY LIVING / M Square</span></div>
     </section>
 
     <section className="world-services" id="services">
@@ -40,18 +40,18 @@ export default function Home() {
 
     <section className="world-film">
       <div className="world-film-head"><div><p className="world-kicker">03 / INSIDE THE DETAILS</p><h2>Take a closer<br/><em>look around.</em></h2></div><p className="world-body">A space is more than a photograph. Explore the flow, finishes and moments that bring each interior to life.</p></div>
-      <div className="world-film-feature"><video controls preload="metadata" playsInline poster="/images/project-08.webp"><source src="/videos/project-film-1.mp4" type="video/mp4"/></video><div className="world-film-caption"><span>FILM 01 / THE RESIDENCE</span><span>M² INTERIORS&nbsp; ↗</span></div></div>
+      <div className="world-film-feature"><video controls preload="metadata" playsInline poster="/images/project-08.webp"><source src="/videos/project-film-1.mp4" type="video/mp4"/></video><div className="world-film-caption"><span>FILM 01 / THE RESIDENCE</span><span>M SQUARE INTERIORS&nbsp; ↗</span></div></div>
     </section>
 
     <section className="world-gallery-invite">
       <div>
-        <p className="world-kicker">04 / THE M² COLLECTION</p>
+        <p className="world-kicker">04 / THE M SQUARE COLLECTION</p>
         <h2>A closer look at<br/><em>the spaces we create.</em></h2>
         <p className="world-body">Explore our complete collection of interior photographs and films in one place.</p>
       </div>
       <Link href="/gallery" className="world-contact-button">VIEW ALL PHOTOS &amp; VIDEOS <span>↗</span></Link>
     </section>
 
-    <section className="world-contact"><p className="world-kicker">05 / YOUR NEXT CHAPTER STARTS HERE</p><h2>Let’s make<br/><em>space for living.</em></h2><div className="world-contact-bottom"><p>Have a space in mind? Tell us what you're imagining. We'd love to hear about it.</p><Link href="/contact" className="world-contact-button">START A CONVERSATION <span>↗</span></Link></div><div className="world-contact-mark">M²</div></section>
+    <section className="world-contact"><p className="world-kicker">05 / YOUR NEXT CHAPTER STARTS HERE</p><h2>Let’s make<br/><em>space for living.</em></h2><div className="world-contact-bottom"><p>Have a space in mind? Tell us what you're imagining. We'd love to hear about it.</p><Link href="/contact" className="world-contact-button">START A CONVERSATION <span>↗</span></Link></div><div className="world-contact-mark">M Square</div></section>
   </>;
 }

@@ -40,7 +40,7 @@ export default function Contact() {
       const d = await r.json();
       if (!r.ok) throw new Error(d.error || "Unable to send enquiry");
       setNotice(
-        "Thank you. Your enquiry has reached the M² Interiors studio. We’ll be in touch soon.",
+        "Thank you. Your enquiry has reached the M Square Interiors studio. We’ll be in touch soon.",
       );
       setName("");
       setPhone("");
@@ -63,7 +63,7 @@ export default function Contact() {
     <main className="contact-lux-page">
       <section className="contact-lux-hero">
         <div className="contact-lux-heading">
-          <p className="eyebrow">M² INTERIORS / LET’S BEGIN</p>
+          <p className="eyebrow">M Square INTERIORS / LET’S BEGIN</p>
           <h1>
             Good spaces
             <br />
@@ -84,11 +84,11 @@ export default function Contact() {
         <div className="contact-lux-image">
           <img
             src="/images/brand-logo.jpg"
-            alt="M² Interiors residential interior"
+            alt="M Square Interiors residential interior"
           />
           <div className="contact-image-note">
             <span>SPACES WITH PURPOSE</span>
-            <span>M² / INTERIORS</span>
+            <span>M Square / INTERIORS</span>
           </div>
         </div>
       </section>

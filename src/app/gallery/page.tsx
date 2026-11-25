@@ -17,8 +17,8 @@ type MediaResource = {
 
 export const dynamic = "force-dynamic";
 export const metadata = {
-  title: "Gallery | M² Interiors",
-  description: "Explore interior collections by M² Interiors.",
+  title: "Gallery | M Square Interiors",
+  description: "Explore interior collections by M Square Interiors.",
 };
 
 const categoryDefinitions = [
@@ -128,7 +128,7 @@ export default async function GalleryPage() {
     <main className="gallery-page">
       <section className="gallery-intro">
         <p className="world-kicker">
-          M² INTERIORS&nbsp;&nbsp; / &nbsp;&nbsp; THE COLLECTION
+          M Square INTERIORS&nbsp;&nbsp; / &nbsp;&nbsp; THE COLLECTION
         </p>
         <h1>
           Spaces, in
@@ -197,7 +197,7 @@ export default async function GalleryPage() {
                     <span>
                       {video.title ||
                         video.context?.custom?.caption ||
-                        "M² INTERIORS FILM"}
+                        "M SQUARE INTERIORS FILM"}
                     </span>
                     {(video.description || video.context?.custom?.alt) && (
                       <p>{video.description || video.context?.custom?.alt}</p>

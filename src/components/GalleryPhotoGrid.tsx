@@ -30,7 +30,7 @@ export default function GalleryPhotoGrid({ photos }: { photos: GalleryPhoto[] })
   return <>
     <div className="gallery-photo-grid">
       {photos.slice(0, visibleCount).map((photo, index) => {
-        const title = photo.context?.custom?.caption || 'M² INTERIORS';
+        const title = photo.context?.custom?.caption || 'M Square INTERIORS';
         return <button
           className="gallery-photo-card"
           type="button"
@@ -65,10 +65,10 @@ export default function GalleryPhotoGrid({ photos }: { photos: GalleryPhoto[] })
       <button className="gallery-lightbox-close" type="button" onClick={() => setActive(null)} aria-label="Close image">×</button>
       <div className="gallery-lightbox-content">
         <div className="gallery-lightbox-image">
-          <img src={active.secure_url} alt={active.context?.custom?.caption || 'M² Interiors project'} />
+          <img src={active.secure_url} alt={active.context?.custom?.caption || 'M Square Interiors project'} />
         </div>
         <div className="gallery-lightbox-info">
-          <p className="world-kicker">M² INTERIORS / PROJECT DETAIL</p>
+          <p className="world-kicker">M Square INTERIORS / PROJECT DETAIL</p>
           <h3>{active.context?.custom?.caption || 'A considered space.'}</h3>
           {active.context?.custom?.category && <span className="gallery-lightbox-category">{active.context.custom.category}</span>}
           {active.context?.custom?.alt && <p>{active.context.custom.alt}</p>}

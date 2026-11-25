@@ -58,7 +58,7 @@ const nav = [
   ["settings", "Website settings", Settings],
 ] as const;
 const blankSettings = {
-  companyName: "M² Interiors",
+  companyName: "M Square Interiors",
   email: "hello@msquareinteriors.com",
   phone: "",
   address: "#203, V V Centre, Palarivattom, Cochin - 682025",
@@ -276,7 +276,7 @@ export default function AdminPage() {
     return (
       <main className="admin-shell admin-login">
         <form className="admin-login-card" onSubmit={login}>
-          <p className="admin-eyebrow">M² INTERIORS / PRIVATE ACCESS</p>
+          <p className="admin-eyebrow">M Square INTERIORS / PRIVATE ACCESS</p>
           <LockKeyhole size={30} />
           <h1>
             Studio
@@ -322,7 +322,7 @@ export default function AdminPage() {
           <img
             className="admin-brand-logo"
             src="/images/m2-admin-logo.png"
-            alt="M² Interiors — Spaces That Inspire"
+            alt="M Square Interiors — Spaces That Inspire"
           />
           <button
             className="admin-mobile-close"
@@ -375,7 +375,7 @@ export default function AdminPage() {
             <Menu />
           </button>
           <div>
-            <p>M² INTERIORS / MANAGEMENT</p>
+            <p>M Square INTERIORS / MANAGEMENT</p>
             <h1>{titleText}</h1>
           </div>
           <div className="admin-top-actions">
@@ -385,7 +385,7 @@ export default function AdminPage() {
             <button onClick={() => refreshAll()} title="Refresh dashboard">
               <RefreshCw size={16} />
             </button>
-            <span className="admin-avatar">M²</span>
+            <span className="admin-avatar">M Square</span>
           </div>
         </header>
         {error && (
@@ -410,7 +410,7 @@ export default function AdminPage() {
                   Good to see you <em>back.</em>
                 </h2>
                 <p>
-                  Manage the digital presence of M² Interiors from one place.
+                  Manage the digital presence of M Square Interiors from one place.
                 </p>
               </div>
               <span>CONTENT MANAGEMENT / 2026</span>
@@ -625,7 +625,7 @@ export default function AdminPage() {
           <>
             <div className="admin-section-intro">
               <div>
-                <p className="admin-eyebrow">M² OBJECTS</p>
+                <p className="admin-eyebrow">M Square OBJECTS</p>
                 <h2>
                   Furniture <em>catalogue.</em>
                 </h2>
@@ -865,7 +865,7 @@ export default function AdminPage() {
           </>
         )}
         <footer className="admin-footer">
-          M² INTERIORS <span>PRIVATE MANAGEMENT AREA</span>
+          M Square INTERIORS <span>PRIVATE MANAGEMENT AREA</span>
           <span>SECURE STUDIO SESSION</span>
         </footer>
       </section>

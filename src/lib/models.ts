@@ -33,7 +33,7 @@ const EnquirySchema = new Schema({
 
 const SettingsSchema = new Schema({
   key: { type: String, unique: true, default: 'website' },
-  companyName: { type: String, default: 'M² Interiors' },
+  companyName: { type: String, default: 'M Square Interiors' },
   email: { type: String, default: 'hello@msquareinteriors.com' },
   phone: { type: String, default: '' },
   address: { type: String, default: ' #203, V V Centre, Palarivattom, Cochin - 682025' },

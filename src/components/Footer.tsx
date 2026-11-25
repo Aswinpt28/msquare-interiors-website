@@ -6,7 +6,7 @@ export default function Footer(){
     <div className="footer-main">
       <div className="footer-brand">
         <Link href="/" aria-label="M2 Interiors home">
-          <Image src="/images/m2-logo-light.png" alt="M² Interiors — Spaces That Inspire" width={220} height={110}/>
+          <Image src="/images/m2-logo-light.png" alt="M Square Interiors — Spaces That Inspire" width={220} height={110}/>
         </Link>
         <p className="footer-tagline">Spaces that inspire.<br/>Details that matter.</p>
       </div>

@@ -20,7 +20,7 @@ function normaliseCategory(value?: string) {
 export const dynamic = 'force-dynamic';
 export async function generateMetadata({ params }: { params: Promise<{ category: string }> }) {
   const { category: slug } = await params; const item = categories.find((entry) => entry.slug === slug);
-  return { title: item ? `${item.name} Interiors | M² Interiors` : 'Gallery | M² Interiors', description: item ? `Explore our ${item.name.toLowerCase()} interior design photographs.` : 'Explore M² Interiors projects.' };
+  return { title: item ? `${item.name} Interiors | M Square Interiors` : 'Gallery | M Square Interiors', description: item ? `Explore our ${item.name.toLowerCase()} interior design photographs.` : 'Explore M Square Interiors projects.' };
 }
 export default async function GalleryCategoryPage({ params }: { params: Promise<{ category: string }> }) {
   const { category: slug } = await params; const category = categories.find((entry) => entry.slug === slug);
@@ -30,7 +30,7 @@ export default async function GalleryCategoryPage({ params }: { params: Promise<
   return <main className="gallery-page gallery-category-page">
     <section className="gallery-intro gallery-category-intro">
       <Link href="/gallery" className="gallery-back-link">← BACK TO ALL COLLECTIONS</Link>
-      <p className="world-kicker">M² INTERIORS&nbsp;&nbsp; / &nbsp;&nbsp; THE COLLECTION</p>
+      <p className="world-kicker">M Square INTERIORS&nbsp;&nbsp; / &nbsp;&nbsp; THE COLLECTION</p>
       <h1>{category.name.split(' ').map((word, index) => index === 0 ? word : <><br/><em key={word}>{word}</em></>)}</h1>
       <p>A closer look at our {category.name.toLowerCase()} interiors, thoughtfully designed down to the final detail.</p>
       <div className="gallery-counts"><span>{photos.length.toString().padStart(2, '0')} PHOTOGRAPHS</span></div>

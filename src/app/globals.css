@@ -385,7 +385,7 @@ img {
   overflow: hidden;
 }
 .services-band:after {
-  content: "M²";
+  content: "M Square";
   position: absolute;
   right: 5vw;
   top: 5px;
@@ -828,7 +828,7 @@ img {
   }
 }
 
-/* M² premium editorial direction */
+/* M Square premium editorial direction */
 :root {
   --ink: #201f1c;
   --muted: #77736d;
@@ -2447,7 +2447,7 @@ body {
   overflow: hidden;
 }
 .page-hero:after {
-  content: "M²";
+  content: "M Square";
   position: absolute;
   right: 4vw;
   bottom: -0.24em;
@@ -3244,7 +3244,7 @@ body {
   overflow: hidden;
 }
 .gallery-intro:after {
-  content: "M²";
+  content: "M Square";
   position: absolute;
   right: 4vw;
   bottom: -0.24em;
@@ -3412,7 +3412,7 @@ body {
   }
 }
 
-/* M² ADMIN DASHBOARD */
+/* M Square ADMIN DASHBOARD */
 .admin-dashboard {
   min-height: 100vh;
   background: #f2f0eb;
@@ -4214,7 +4214,7 @@ body {
   }
 }
 
-/* M² Contact page — editorial studio enquiry experience */
+/* M Square Contact page — editorial studio enquiry experience */
 .contact-lux-page {
   background: #f4f0e9;
   color: #22211e;
@@ -4593,7 +4593,7 @@ body {
   }
 }
 
-/* M² logo loading screen */
+/* M Square logo loading screen */
 .m2-loader {
   position: fixed;
   inset: 0;
@@ -4893,7 +4893,7 @@ body {
 }
 
 
-/* Category-led M² portfolio gallery */
+/* Category-led M Square portfolio gallery */
 .gallery-category-bar {
   display: flex;
   flex-wrap: wrap;

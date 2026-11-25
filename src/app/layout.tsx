@@ -7,7 +7,7 @@ const display = Cormorant_Garamond({ subsets:['latin'], variable:'--font-display
 const sans = DM_Sans({ subsets:['latin'], variable:'--font-sans', weight:['400','500','600','700'] });
 
 export const metadata: Metadata = {
-  title:'M² Interiors | Spaces That Inspire',
+  title:'M Square Interiors | Spaces That Inspire',
   description:'Thoughtful interior design, custom spaces and beautiful details by M Square Interiors.'
 };
 

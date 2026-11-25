@@ -1,4 +1,4 @@
-# M² Interiors — International Editorial Website
+# M Square Interiors — International Editorial Website
 
 A premium, image-led interior design studio website built with Next.js 15, React 19 and TypeScript.
 
@@ -23,7 +23,7 @@ npm start
 - Home, Projects, Services and Contact pages
 - Responsive navigation and project category filters
 - Editorial, full-bleed homepage hero and large-format typography
-- Original M² Interiors logo, supplied project photography and two supplied videos
+- Original M Square Interiors logo, supplied project photography and two supplied videos
 - Local media assets in `public/images` and `public/videos`
 
 Business contact details and the live enquiry delivery integration should be added before launch.
@@ -54,7 +54,7 @@ The project includes a private admin panel at `/admin`.
 - Furniture products uploaded with the Furniture Product type appear on `/furniture`.
 - Furniture page shows a considered coming-soon message until products are uploaded.
 - The old Projects section and standalone Projects page are removed from the public navigation/homepage.
-- Footer includes the M² light logo and the supplied business address.
+- Footer includes the M Square light logo and the supplied business address.
 
 ### Required environment variables
 Copy `.env.example` to `.env.local` for local development, or add the same variables in your hosting provider's environment settings:

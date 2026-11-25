@@ -30,7 +30,7 @@ export default function Services() {
   return (
     <div className="inner-page">
       <section className="page-hero">
-        <p className="eyebrow">M² / SERVICES</p>
+        <p className="eyebrow">M Square / SERVICES</p>
         <h1>
           Considered design.
           <br />

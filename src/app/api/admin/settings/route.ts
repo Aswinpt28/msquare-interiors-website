@@ -5,7 +5,7 @@ import { SiteSettings } from '@/lib/models';
 
 export async function GET() {
  if(!await isAdmin()) return NextResponse.json({error:'Unauthorized'},{status:401});
- try { await connectDB(); const settings=await SiteSettings.findOne({key:'website'}).lean(); return NextResponse.json({settings:settings||{companyName:'M² Interiors',email:'hello@msquareinteriors.com',phone:'',address:'#203, V V Centre, Palarivattom, Cochin - 682025',instagram:'',whatsapp:'',homepageIntro:''}}); }
+ try { await connectDB(); const settings=await SiteSettings.findOne({key:'website'}).lean(); return NextResponse.json({settings:settings||{companyName:'M Square Interiors',email:'hello@msquareinteriors.com',phone:'',address:'#203, V V Centre, Palarivattom, Cochin - 682025',instagram:'',whatsapp:'',homepageIntro:''}}); }
  catch { return NextResponse.json({error:'Could not load settings'},{status:503}); }
 }
 export async function PUT(req:Request) {
